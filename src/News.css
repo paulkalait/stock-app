@@ -1,0 +1,14 @@
+.news {
+    border: 1px solid orange;
+    color: white;
+    flex: .70;
+  }
+.news__portfolio{
+    text-align: left;
+}
+.news__portfolio > h1{
+    margin:0;
+}
+.news__portfolio > p{
+    margin-top: 0;
+}

@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import { Header } from './components/';
-import { News } from './components/News'
+import Header from './components/Header';
+import News  from './components/News';
+import Stats from './components/Stats';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <div className='app__container'>
         <News />
       {/* stats */}
+        <Stats />
         </div>
       </div>
     </div>
