@@ -11,9 +11,9 @@ const News = () => {
         <h1>100,000</h1>
         <p>+44.63 (+0.04%) Today</p>
         </div></div>
-        <div className='news_chart'>
+        <div className='news_chartSection'>
 
-        <LineGraph/> 
+        <LineGraph className='lineGraph'/> 
 
         </div>
     </div>

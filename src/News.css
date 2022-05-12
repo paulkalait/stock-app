@@ -1,7 +1,6 @@
 .news {
-    border: 1px solid orange;
     color: white;
-    flex: .70;
+    flex: .7;
   }
 .news__portfolio{
     text-align: left;
@@ -11,4 +10,14 @@
 }
 .news__portfolio > p{
     margin-top: 0;
+}
+.news__chart{
+    width: 100%;
+}
+.news_chartSection{
+    display: flex;
+    flex-direction: column;
+}
+.lineGraph{
+    height: 20px;
 }
