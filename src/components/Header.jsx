@@ -7,7 +7,7 @@ export const Header = () => {
     <div className="header__wrapper">
       {/* logo */}
       <div className="header__logo">
-        <img src={Logo} width={25} />
+        <img src={Logo} width={25} alt="logo" />
       </div>
       {/* search */}
       <div className="header__search">

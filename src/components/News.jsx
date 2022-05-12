@@ -13,7 +13,7 @@ const News = () => {
         </div></div>
         <div className='news_chart'>
 
-        <LineGraph/>
+        <LineGraph/> 
 
         </div>
     </div>
