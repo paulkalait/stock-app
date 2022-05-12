@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import { Header } from './components/Header';
+import { Header } from './components/';
+import { News } from './components/News'
 
 function App() {
   return (
@@ -11,7 +12,10 @@ function App() {
       </div>
       {/* body */}
       <div className='app__body'>
-      
+        <div className='app__container'>
+        <News />
+      {/* stats */}
+        </div>
       </div>
     </div>
   );

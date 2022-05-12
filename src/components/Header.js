@@ -22,7 +22,6 @@ export const Header = () => {
       <a href='#'>Cash</a>
       <a href='#'>Messages</a>
       <a href='#'>Account</a>
-
       </div>
     </div>
   );
