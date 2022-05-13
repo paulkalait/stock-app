@@ -1,4 +1,5 @@
 import axios from "axios";
+import StatsRow from "./StatsRow";
 import React, { useState, useEffect } from "react";
 import "../Stats.css";
 
@@ -30,11 +31,17 @@ useEffect(()=> {
          console.log(res)
          tempStocksData.push({
            name: stock,
+          // spread operater puts the response data inside
            ...res.data
          });
         })
      )
    });
+
+   Promise.all(promise).then(() => {
+     setStockData(tempStocksData)
+     console.log(tempStocksData)
+   })
 
 }, [])
 
@@ -47,12 +54,22 @@ useEffect(()=> {
         </div>
         <div className="stats__content">
           <div className="stats__rows">
-      
+         
           </div> 
         </div>
         <div className="stats__content">
           <div className="stats__header">
           <p>Lists</p>
+          </div>
+          <div className="stats__rows">
+            {stockData.map((stock) => (
+              <StatsRow 
+              key={stock.name}
+              name={stock.name}
+              openPrice={stock.o}
+              price={stock.c}
+              />
+          ))}
           </div>
         </div>
       </div>

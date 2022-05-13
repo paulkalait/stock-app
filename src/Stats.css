@@ -1,20 +1,21 @@
 
 .stats {
   background-color: #1e2023;
-  border-radius: 5px;
+  
   border: 1px solid #424940;
    margin: 2%;
     flex: .3;
     flex-shrink: 0;
-    padding: 0px 30px 30px 30px;
+    padding: 0px;
     color:white;
+    height: 100%;
   }
 
 .stats_container{
     flex-direction: column;
     flex: 1;
     width: 100%;
-  
+ 
   }
 
   .stats__header{
@@ -27,3 +28,4 @@
     font-weight: 600;
   }
   
+
