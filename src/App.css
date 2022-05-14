@@ -28,3 +28,18 @@ body{
   padding-left: 48px;
   padding-right: 48px;
 }
+@media screen and (max-width: 850px) {
+  .App{
+      display: flex;
+    flex-direction: column;
+      width: 100%;
+  }
+  .app__header{
+   
+  }
+
+  .app__container{
+    width: 100%;
+    flex-direction: column;
+  }
+  }

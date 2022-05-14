@@ -21,3 +21,18 @@
 .lineGraph{
     height: 20px;
 }
+@media screen and (max-width: 850px) {
+.news{
+    display: flex;
+    width: 100%;
+}
+.lineGraph{
+   width: 100%;
+}
+.news__container {
+    width: 100%;
+}
+.news__chart {
+    margin-bottom: 4%;
+}
+}

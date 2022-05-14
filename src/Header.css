@@ -49,3 +49,31 @@
 .header__menuItems  > a:hover{
     color: lightskyblue;
 }
+
+@media screen and (max-width: 850px) {
+ .header__wrapper{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     margin-bottom: 2%;
+ }
+ .header__logo{
+    display: none;
+ }
+ .header__menuItems {
+    display: none;
+}
+.header__searchContainer{
+    align-items: center;
+    width: 100%;
+}
+.header__searchContainer > input{
+    width: 100%;
+    
+}
+.header__search{
+    width:80%;
+ 
+}
+}

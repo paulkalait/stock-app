@@ -29,3 +29,10 @@
   }
   
 
+  @media screen and (max-width: 850px) {
+    .stats{
+        display: flex;
+        
+        width: 100%;
+    }
+    }
